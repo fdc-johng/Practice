@@ -12,6 +12,16 @@
 		3A322BCE22F7D06000F5E7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A322BCC22F7D06000F5E7DB /* Main.storyboard */; };
 		3A322BD022F7D06300F5E7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A322BCF22F7D06300F5E7DB /* Assets.xcassets */; };
 		3A322BD322F7D06300F5E7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A322BD122F7D06300F5E7DB /* LaunchScreen.storyboard */; };
+		3A322BDE22F7D7C500F5E7DB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A322BDD22F7D7C500F5E7DB /* DataModel.swift */; };
+		3A322BE022F7D89E00F5E7DB /* ReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A322BDF22F7D89E00F5E7DB /* ReportCell.xib */; };
+		3A322BE322F7DE4B00F5E7DB /* CustomReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A322BE222F7DE4B00F5E7DB /* CustomReportCell.swift */; };
+		3A322BE522F7F3D900F5E7DB /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A322BE422F7F3D900F5E7DB /* ReportViewController.swift */; };
+		3A6F6C4B22F95A1400BD3DF3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F6C4A22F95A1400BD3DF3 /* DataManager.swift */; };
+		3A6F6C4F22F9701300BD3DF3 /* CurrentSelectedReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F6C4E22F9701300BD3DF3 /* CurrentSelectedReport.swift */; };
+		3A6F6C5122F9750F00BD3DF3 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F6C5022F9750F00BD3DF3 /* AppUtility.swift */; };
+		3ADE515722FA6F3B008387A5 /* CustomCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE515522FA6F3B008387A5 /* CustomCommentCell.swift */; };
+		3ADE515822FA6F3B008387A5 /* CustomCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE515622FA6F3B008387A5 /* CustomCommentCell.xib */; };
+		3AF1C5B922FC140200A16D63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C5B822FC140200A16D63 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		3A322BCF22F7D06300F5E7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A322BD222F7D06300F5E7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A322BD422F7D06300F5E7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A322BDD22F7D7C500F5E7DB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		3A322BDF22F7D89E00F5E7DB /* ReportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportCell.xib; sourceTree = "<group>"; };
+		3A322BE222F7DE4B00F5E7DB /* CustomReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomReportCell.swift; sourceTree = "<group>"; };
+		3A322BE422F7F3D900F5E7DB /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		3A6F6C4A22F95A1400BD3DF3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3A6F6C4E22F9701300BD3DF3 /* CurrentSelectedReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSelectedReport.swift; sourceTree = "<group>"; };
+		3A6F6C5022F9750F00BD3DF3 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		3ADE515522FA6F3B008387A5 /* CustomCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCommentCell.swift; sourceTree = "<group>"; };
+		3ADE515622FA6F3B008387A5 /* CustomCommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCommentCell.xib; sourceTree = "<group>"; };
+		3AF1C5B822FC140200A16D63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,56 @@
 		3A322BC722F7D06000F5E7DB /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				3AF1C5B822FC140200A16D63 /* Constants.swift */,
 				3A322BC822F7D06000F5E7DB /* AppDelegate.swift */,
-				3A322BCA22F7D06000F5E7DB /* ViewController.swift */,
-				3A322BCC22F7D06000F5E7DB /* Main.storyboard */,
+				3A6F6C5022F9750F00BD3DF3 /* AppUtility.swift */,
+				3A322BDA22F7D76800F5E7DB /* Model */,
+				3A322BDB22F7D77200F5E7DB /* View */,
+				3A322BDC22F7D77B00F5E7DB /* Controller */,
 				3A322BCF22F7D06300F5E7DB /* Assets.xcassets */,
-				3A322BD122F7D06300F5E7DB /* LaunchScreen.storyboard */,
 				3A322BD422F7D06300F5E7DB /* Info.plist */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		3A322BDA22F7D76800F5E7DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A322BDD22F7D7C500F5E7DB /* DataModel.swift */,
+				3A6F6C4A22F95A1400BD3DF3 /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A322BDB22F7D77200F5E7DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A322BD122F7D06300F5E7DB /* LaunchScreen.storyboard */,
+				3A322BCC22F7D06000F5E7DB /* Main.storyboard */,
+				3A322BE122F7D8A900F5E7DB /* CustomCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A322BDC22F7D77B00F5E7DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A322BCA22F7D06000F5E7DB /* ViewController.swift */,
+				3A322BE422F7F3D900F5E7DB /* ReportViewController.swift */,
+				3A6F6C4E22F9701300BD3DF3 /* CurrentSelectedReport.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A322BE122F7D8A900F5E7DB /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A322BDF22F7D89E00F5E7DB /* ReportCell.xib */,
+				3A322BE222F7DE4B00F5E7DB /* CustomReportCell.swift */,
+				3ADE515622FA6F3B008387A5 /* CustomCommentCell.xib */,
+				3ADE515522FA6F3B008387A5 /* CustomCommentCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADE515822FA6F3B008387A5 /* CustomCommentCell.xib in Resources */,
 				3A322BD322F7D06300F5E7DB /* LaunchScreen.storyboard in Resources */,
 				3A322BD022F7D06300F5E7DB /* Assets.xcassets in Resources */,
 				3A322BCE22F7D06000F5E7DB /* Main.storyboard in Resources */,
+				3A322BE022F7D89E00F5E7DB /* ReportCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6F6C5122F9750F00BD3DF3 /* AppUtility.swift in Sources */,
+				3AF1C5B922FC140200A16D63 /* Constants.swift in Sources */,
+				3A322BE322F7DE4B00F5E7DB /* CustomReportCell.swift in Sources */,
+				3A6F6C4B22F95A1400BD3DF3 /* DataManager.swift in Sources */,
 				3A322BCB22F7D06000F5E7DB /* ViewController.swift in Sources */,
+				3A322BE522F7F3D900F5E7DB /* ReportViewController.swift in Sources */,
 				3A322BC922F7D06000F5E7DB /* AppDelegate.swift in Sources */,
+				3A322BDE22F7D7C500F5E7DB /* DataModel.swift in Sources */,
+				3A6F6C4F22F9701300BD3DF3 /* CurrentSelectedReport.swift in Sources */,
+				3ADE515722FA6F3B008387A5 /* CustomCommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
